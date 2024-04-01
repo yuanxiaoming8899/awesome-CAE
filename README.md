@@ -1,129 +1,125 @@
-# Awesome CAE
-A curated list of awesome CAE frameworks, libraries and software. 
-
---------
-# CAD
-
-* [pythonocc](https://github.com/tpaviot/pythonocc) - pythonOCC is a 3D CAD/CAE/PLM development framework for the Python programming language
-* [cadmium](https://github.com/jay3sh/cadmium) - Cadmium is a python library for Solid Modelling.
-* [CadQuery](https://github.com/CadQuery/cadquery) - CadQuery is a Python CAD library that uses the OpenCASCADE CAD kernel
-* [oce](https://github.com/tpaviot/oce) - oce is a C++ 3D modeling library.
-
-
----------------
-# Preprocessors
-
-*Libraries mainly meant for preprocessing of data before simulation*
-
-* [pyNastran](https://github.com/SteveDoyle2/pyNastran) - pyNastran is an interface library to the various Nastran file formats (BDF, OP2, OP4)
-* [qd-ansa](https://github.com/qd-cae/qd-ansa) - python utility library for scripting in Beta CAE suite
-* [abapy](https://github.com/lcharleux/abapy) - Abaqus Python “AbaPy” contains tools to build, postprocess and plot automatic finite element simulations using Abaqus.
-* [AbqParse](https://github.com/crmccreary/AbqParse) - A simple parser for Abaqus input files that parses out the keywords, parameters, and data lines.
-* [abaqus2dyna](https://github.com/tbhartman/abaqus2dyna) - abaqus2dyna is a script to convert, in a limited fashion, Abaqus keyword inputfiles to LS-DYNA keyword input files.
-* [pycalculix](https://github.com/spacether/pycalculix) - pycalculix is a Python 3 library to automate and build finite element analysis (FEA) models in Calculix.
-* [pyDOE](https://github.com/tisimst/pyDOE) - library for creating design of experiments studies
-* [meshpy](https://mathema.tician.de/software/meshpy) - MeshPy offers quality triangular and tetrahedral mesh generation for Python
-* [pymesh](http://pymesh.readthedocs.io/en/latest) - PyMesh — Geometry Processing Library for Python
-* [smesh](https://github.com/tpaviot/smesh) - A complete OpenCascade based MESH framework
-* [pygmsh](https://github.com/nschloe/pygmsh) - The goal of PyGmsh is to combine the power of Gmsh with the versatility of Python
-* [FreeCAD](https://github.com/FreeCAD/FreeCAD) - FreeCAD is a general purpose feature-based, parametric 3D modeler for CAD, MCAD, CAx, CAE and PLM
-* [VTK](https://github.com/Kitware/VTK) - VTK is an open-source software system for image processing, 3D graphics, volume rendering and visualization
-* [Robust-Hexahedral-Re-Meshing](https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing) - Robust Structure Simplification for Hex Re-meshing
-* [gridder](https://github.com/lanl/gridder) - gridder is a simple interactive grid generation tool for creating 2D and 3D orthogonal grids. Used at Los Alamos National Laboratory (EES Group). 
-* [libMesh ](https://github.com/libMesh/libmesh) - The libMesh library provides a framework for the numerical simulation of partial differential equations. A major goal of the library is to provide support adaptive mesh refinement (AMR).
-* [Simright WebMesher](https://www.simright.com/apps/simright-webmesher) - Simright WebMesher is a Web-based preprocessor. It supports importing most popular CAD formats, interactive meshing, definitions of loads & BCs and exporting into various CAE formats.
-* [meshzoo](https://github.com/nschloe/meshzoo) - A collection of simple meshes for canonical domains
-
------------
-# Materials
-* [ABAQUS-US](https://github.com/jgomezc1/ABAQUS-US) - A variety of ABAQUS user element (UELs) and user material (UMATs) subroutines 
-* [ABAQUS_Subroutines](https://github.com/ALandauer/ABAQUS_Subroutines) - Viscoplastic UMAT, rotational body force UEL, UMAT implmenentation of Linder et al. 2011
-* [ABAQUS_Subroutines 2](https://github.com/WeilinDeng/ABAQUS) - collection of abaqus user materials
-
-----------------
-# Solver related 
-
-* [SU2](https://github.com/su2code/SU2) - SU2 is a C++ suite of tools for the numerical solution of partial differential equations (PDE) and performing PDE constrained optimization, primary for CFD.
-* [OpenFoam](https://github.com/OpenFOAM?tab=repositories) - Open Source CFD solver
-* [jobwatch](https://github.com/jakobgager/jobwatch) - Abaqus Job Status Plotter
-* [NASTRAN-95](https://github.com/nasa/NASTRAN-95) - FEM solver
-* [abaqus-fortran-env-setup](https://github.com/song2001/abaqus-fortran-env-setup) - Files and docs to assist getting Abaqus with Intel Fortran development environment configured. 
-* [OpenBLAS](https://github.com/xianyi/OpenBLAS) - OpenBLAS is an optimized BLAS library
-* [PyOP2](https://github.com/OP2/PyOP2) - Framework for performance-portable parallel computations on unstructured meshes
-* [pyamg](https://github.com/pyamg/pyamg) - Algebraic Multigrid Solvers in Python
-* [Fluid-Solver](https://github.com/seanlth/Fluid-Solver) - Staggered-Grid Fluid Solver in Rust
-* [boltzmann](https://github.com/seanlth/boltzmann) - Maxwell-Boltzmann distribution simulator written in Rust
-* [nusa](https://github.com/JorgeDeLosSantos/nusa) - A Python library for simple structural analysis using FEM
-* [JuliaFEM](https://github.com/JuliaFEM/JuliaFEM.jl) - The JuliaFEM project develops open-source software for reliable, scalable, distributed FEM
-* [FEniCS](https://fenicsproject.org/) - FEniCS is a computing platform for solving partial differential equations in a very comfortable manner.
-* [deal.II](https://www.dealii.org/) -  A C++ software library supporting the creation of finite element codes
-* [CFDEM](https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC) - This code provides models and solvers to realize coupled CFD-DEM simulations using LIGGGHTS and OpenFOAM® technology.
-* [Voxelyze](https://github.com/jonhiller/Voxelyze) - Voxelyze is a general purpose multi-material voxel simulation library for static and dynamic analysis.
-* [CalculiX](https://github.com/GeneralElectric/CalculiX) - CalculiX is an OSS package designed to solve field problems. The method used is the finite element method.
-* [Modelica](https://github.com/modelica/Modelica) - Free library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), thermal, fluid, control systems and hierarchical state machines.
-* [Simright Simulator](https://www.simright.com/apps/simright-simulator) - Simright Simulator is a Web-based structural analysis software.
-
-----------------
-# Postprocessing
-
-*This section contains software regarding postprocessing*
-
-* [qd](https://github.com/qd-cae/qd) - CAE python library for reading binary LS-DYNA result files and some other smaller CAE related utilities.
-* [pyNastran](https://github.com/SteveDoyle2/pyNastran) - pyNastran is an interface library to the various Nastran file formats (BDF, OP2, OP4)
-* [matlab-lsdyna](https://github.com/svenholcombe/matlab-lsdyna) - Reader of ascii results files from the Finite Element solver LS-DYNA, and a wrapper to run LS-DYNA simulations programmatically from MATLAB.
-* [postPro4Abq](https://github.com/Solid-Mechanics/postPro4Abq) - Python scripts to read and process an odb file.
-* [ParaView](https://github.com/Kitware/ParaView) - ParaView is an open-source, multi-platform data analysis and visualization application based on Visualization Toolkit (VTK).
-* [abaqusPython](https://github.com/quisten/abaqusPython) - A collection of frequently used abaqus scripts and other useful gems! 
-* [matplotlib-4-abaqus](https://github.com/Solid-Mechanics/matplotlib-4-abaqus) - Allow abaqus(v6.14-1) to use matplotlib in its build-in python scripts environment.
-* [colorbrewer-colormaps-4-abaqus](https://github.com/Solid-Mechanics/colorbrewer-colormaps-4-abaqus) - An easy way to use the beautiful color schemes in Abaqus to plot contour.
-* [PyQus](https://github.com/JorgeDeLosSantos/pyqus) - Python codes for post-processing of Abaqus ODB files.
-* [IsoSurfaceExtraction](https://github.com/mkazhdan/IsoSurfaceExtraction) - Isosurface extraction from regular voxel grids
-* [glue](https://github.com/glue-viz/glue) - Glue is a python project to link visualizations of scientific datasets across many files.
-* [Simright Viewer](https://www.simright.com/apps/simright-viewer) - Simright Viewer is a Web-based viewer for CAD/CAE models. It can also be used to create a 3D snapshot URL for sharing. 
-* [dynareadout](https://github.com/PucklaJ/dynareadout) - A C/C++/Python library for reading binary LS-DYNA result files (binout, d3plot) with a focus on performance and memory usage.
-
---------------
-# Optimization
-
-*Tools for doing optimization.*
-
-* [opti4Abq](https://github.com/mengomarlene/opti4Abq) - An optimisation method for python2 and ABAQUS.
-* [OpenMDAO](https://github.com/OpenMDAO/OpenMDAO-Framework) - OpenMDAO is an open-source high-performance computing platform for systems analysis and multidisciplinary optimization, written in Python.
-* [ToOptiX](https://github.com/ldslpm/ToOptiX) - ToOptix is used for multiphysical topology optimization.
-* [CasADi](https://github.com/ldslpm/casadi) - CasADi is a symbolic framework for numeric optimization implementing automatic differentiation in forward and reverse modes on sparse matrix-valued computational graphs.
-* [YALMIP](https://github.com/yalmip/YALMIP) - MATLAB toolbox for optimization modeling
-* [Simright Toptimizer](https://www.simright.com/apps/simright-toptimizer) - Simright Toptimizer is a Web-based Topology Optimization software.
-
---------
-# Tools
-
-* [nastran-find](https://github.com/setvisible/nastran-find) - Nastranfind is a solution for browsing Nastran input deck
-* [FEconv](https://github.com/victorsndvg/FEconv) - Program feconv converts finite element (FE) mesh files between several formats
-* [odb2vtk](https://github.com/Liujie-SYSU/odb2vtk) - Python script converts Abaqus ODB files to VTK format for Paraview visualisation.
-* [nastran-find](https://github.com/setvisible/nastran-find) - Nastranfind is a solution for browsing Nastran input deck files for Windows, Mac OS X and Unix.
-* [Simright Converter](https://www.simright.com/apps/simright-converter) - Simright Converter is a web-based tool for converting CAE models between different formats. 
-* [abaqus_scripts](https://github.com/rodrigo1392) - Python scripts to automate the boring stuff in everyday use of Simulia Abaqus, from opening the GUI to controlling parametric analysis.
-* [abqpy](https://github.com/haiiliin/abqpy) - Type hints for Abaqus/Python scripting.
-
----------
-# Editors
-
-*Here you can find editors or plugins for editors.*
-
-* [vim-lsdyna](https://github.com/gradzikb/vim-lsdyna) - vim-plugin for LS-DYNA input files.
-* [vim-lexer-lsdyna](https://github.com/tbhartman/vim-lexer-lsdyna) - LS-DYNA keyword input file lexer for vim.
-* [vim-abaqus](https://github.com/gradzikb/vim-abaqus) - vim-plugin for ABAQUS input files.
-* [vim-radioss](https://github.com/gradzikb/vim-radioss) - vim-plugin for RADIOSS input files.
-* [ATOM language-abaqus](https://atom.io/packages/language-abaqus) - ABAQUS language highlighting in the editor ATOM.
-* [ATOM language-nastran](https://atom.io/packages/language-nastran) - Adds syntax highlighting to NASTRAN files in Atom.
-* [ATOM language-abaqus](https://github.com/drwillharrison/language-abaqus) - Basic syntax highlighting for Abaqus input files in Atom.
-* [ATOM language-ansys](https://atom.io/packages/language-ansys) - ANSYS apdl language support for ATOM.
-
----------------
-# Documentation
-
-*Projects related to documentation*
-
-* [LS-DYNA-Sublime](https://github.com/bendeaton/LS-DYNA-Sublime) - Sublime Text syntax highlighting for the LS-DYNA finite element software.
-* [Abaqus-Sublime](https://github.com/bendeaton/Abaqus-Sublime) - Sublime Text syntax highlighting for the Abaqus finite element software.
-* [Abaqus-Documentation-Scraper](https://github.com/bendeaton/Abaqus-Documentation-Scraper) - Python script to extract keywords, parameters, and parameter values from the Abaqus HTML documentation.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的 CAE</font></font></h1><a id="user-content-awesome-cae" class="anchor" aria-label="永久链接：很棒的 CAE" href="#awesome-cae"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精选的精彩 CAE 框架、库和软件列表。</font></font></p>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算机辅助设计</font></font></h1><a id="user-content-cad" class="anchor" aria-label="永久链接：CAD" href="#cad"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/tpaviot/pythonocc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pythonocc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - pythonOCC 是 Python 编程语言的 3D CAD/CAE/PLM 开发框架</font></font></li>
+<li><a href="https://github.com/jay3sh/cadmium"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cadmium</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -Cadmium 是一个用于实体建模的 python 库.</font></font></li>
+<li><a href="https://github.com/CadQuery/cadquery"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CadQuery</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - CadQuery 是一个使用 OpenCASCADE CAD 内核的 Python CAD 库</font></font></li>
+<li><a href="https://github.com/tpaviot/oce"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">oce</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - oce 是一个 C++ 3D 建模库。</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预处理器</font></font></h1><a id="user-content-preprocessors" class="anchor" aria-label="永久链接：预处理器" href="#preprocessors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库主要用于模拟前的数据预处理</font></font></em></p>
+<ul dir="auto">
+<li><a href="https://github.com/SteveDoyle2/pyNastran"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pyNastran</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - pyNastran 是各种 Nastran 文件格式（BDF、OP2、OP4）的接口库</font></font></li>
+<li><a href="https://github.com/qd-cae/qd-ansa"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">qd-ansa</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于 Beta CAE 套件中脚本编写的 python 实用程序库</font></font></li>
+<li><a href="https://github.com/lcharleux/abapy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abapy</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Abaqus Python “AbaPy”包含使用 Abaqus 构建、后处理和绘制自动有限元模拟的工具。</font></font></li>
+<li><a href="https://github.com/crmccreary/AbqParse"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AbqParse</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Abaqus 输入文件的简单解析器，用于解析关键字、参数和数据行。</font></font></li>
+<li><a href="https://github.com/tbhartman/abaqus2dyna"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abaqus2dyna</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - abaqus2dyna 是一个脚本，用于以有限的方式将 Abaqus 关键字输入文件转换为 LS-DYNA 关键字输入文件。</font></font></li>
+<li><a href="https://github.com/spacether/pycalculix"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pycalculix</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - pycalculix 是一个 Python 3 库，用于在 Calculix 中自动化和构建有限元分析（FEA）模型.</font></font></li>
+<li><a href="https://github.com/tisimst/pyDOE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pyDOE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于创建实验研究设计的库</font></font></li>
+<li><a href="https://mathema.tician.de/software/meshpy" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">meshpy</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - MeshPy 为 Python 提供高质量的三角形和四面体网格生成</font></font></li>
+<li><a href="http://pymesh.readthedocs.io/en/latest" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pymesh</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - PyMesh — Python 几何处理库</font></font></li>
+<li><a href="https://github.com/tpaviot/smesh"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">smesh</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 一个完整的基于 OpenCascade 的 MESH 框架</font></font></li>
+<li><a href="https://github.com/nschloe/pygmsh"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pygmsh</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - PyGmsh 的目标是将 Gmsh 的强大功能与 Python 的多功能性结合起来</font></font></li>
+<li><a href="https://github.com/FreeCAD/FreeCAD"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - FreeCAD 是一款基于功能的通用参数化 3D 建模器，适用于 CAD、MCAD、CAx、CAE 和 PLM</font></font></li>
+<li><a href="https://github.com/Kitware/VTK"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VTK</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - VTK 是一个用于图像处理、3D 图形、体积渲染和可视化的开源软件系统</font></font></li>
+<li><a href="https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Robust-Hexahedral-Re-Meshing</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于六面体重新网格划分的稳健结构简化</font></font></li>
+<li><a href="https://github.com/lanl/gridder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gridder</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - gridder 是一个简单的交互式网格生成工具，用于创建 2D 和 3D 正交网格。用于洛斯阿拉莫斯国家实验室（EES 组）。</font></font></li>
+<li><a href="https://github.com/libMesh/libmesh"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libMesh</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - libMesh 库提供了偏微分方程数值模拟的框架。该库的一个主要目标是提供支持自适应网格细化（AMR）。</font></font></li>
+<li><a href="https://www.simright.com/apps/simright-webmesher" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Simright WebMesher</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Simright WebMesher 是一个基于 Web 的预处理器。它支持导入最流行的 CAD 格式、交互式网格划分、载荷和 BC 定义以及导出为各种 CAE 格式。</font></font></li>
+<li><a href="https://github.com/nschloe/meshzoo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">meshzoo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 规范域的简单网格的集合</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">材料</font></font></h1><a id="user-content-materials" class="anchor" aria-label="永久链接：材料" href="#materials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/jgomezc1/ABAQUS-US"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ABAQUS-US</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 各种 ABAQUS 用户元素 (UEL) 和用户材料 (UMAT) 子例程</font></font></li>
+<li><a href="https://github.com/ALandauer/ABAQUS_Subroutines"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ABAQUS_Subroutines</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 粘塑性 UMAT、旋转体力 UEL、Linder 等人的 UMAT 实现。 2011年</font></font></li>
+<li><a href="https://github.com/WeilinDeng/ABAQUS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ABAQUS_Subroutines 2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - abaqus 用户材料集合</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解算器相关</font></font></h1><a id="user-content-solver-related" class="anchor" aria-label="永久链接：求解器相关" href="#solver-related"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/su2code/SU2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SU2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - SU2 是一套 C++ 工具，用于偏微分方程 (PDE) 的数值求解和执行 PDE 约束优化，主要用于 CFD。</font></font></li>
+<li><a href="https://github.com/OpenFOAM?tab=repositories"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenFoam</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 开源 CFD 求解器</font></font></li>
+<li><a href="https://github.com/jakobgager/jobwatch"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jobwatch</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Abaqus 工作状态绘图仪</font></font></li>
+<li><a href="https://github.com/nasa/NASTRAN-95"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NASTRAN-95</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - FEM 求解器</font></font></li>
+<li><a href="https://github.com/song2001/abaqus-fortran-env-setup"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abaqus-fortran-env-setup</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 帮助配置 Intel Fortran 开发环境的 Abaqus 的文件和文档。</font></font></li>
+<li><a href="https://github.com/xianyi/OpenBLAS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenBLAS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - OpenBLAS 是一个优化的 BLAS 库</font></font></li>
+<li><a href="https://github.com/OP2/PyOP2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyOP2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 非结构化网格上的性能可移植并行计算框架</font></font></li>
+<li><a href="https://github.com/pyamg/pyamg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pyamg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Python 中的代数多重网格求解器</font></font></li>
+<li><a href="https://github.com/seanlth/Fluid-Solver"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fluid-Solver</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Rust 中的交错网格流体求解器</font></font></li>
+<li><a href="https://github.com/seanlth/boltzmann"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boltzmann</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用 Rust 编写的麦克斯韦-玻尔兹曼分布模拟器</font></font></li>
+<li><a href="https://github.com/JorgeDeLosSantos/nusa"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nusa</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 FEM 进行简单结构分析的 Python 库</font></font></li>
+<li><a href="https://github.com/JuliaFEM/JuliaFEM.jl"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JuliaFEM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - JuliaFEM 项目开发用于可靠、可扩展、分布式 FEM 的开源软件</font></font></li>
+<li><a href="https://fenicsproject.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEniCS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - FEniCS 是一个以非常舒适的方式求解偏微分方程的计算平台。</font></font></li>
+<li><a href="https://www.dealii.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">deal.II</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 支持创建有限元代码的 C++ 软件库</font></font></li>
+<li><a href="https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CFDEM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 此代码提供模型和求解器，以使用 LIGGGHTS 和 OpenFOAM® 技术实现耦合 CFD-DEM 模拟。</font></font></li>
+<li><a href="https://github.com/jonhiller/Voxelyze"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Voxelyze</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Voxelyze 是用于静态和动态分析的通用多材料体素模拟库。</font></font></li>
+<li><a href="https://github.com/GeneralElectric/CalculiX"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CalculiX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - CalculiX 是一个旨在解决现场问题的 OSS 包。所采用的方法是有限元法。</font></font></li>
+<li><a href="https://github.com/modelica/Modelica"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Modelica</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Modelica 协会的免费库，用于对机械（1D/3D）、电气（模拟、数字、机器）、热、流体、控制系统和分层状态机进行建模。</font></font></li>
+<li><a href="https://www.simright.com/apps/simright-simulator" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Simright Simulator</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Simright Simulator 是一款基于 Web 的结构分析软件。</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后期处理</font></font></h1><a id="user-content-postprocessing" class="anchor" aria-label="永久链接：后处理" href="#postprocessing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本节包含有关后处理的软件</font></font></em></p>
+<ul dir="auto">
+<li><a href="https://github.com/qd-cae/qd"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">qd</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - CAE python 库，用于读取二进制 LS-DYNA 结果文件和其他一些较小的 CAE 相关实用程序。</font></font></li>
+<li><a href="https://github.com/SteveDoyle2/pyNastran"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pyNastran</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - pyNastran 是各种 Nastran 文件格式（BDF、OP2、OP4）的接口库</font></font></li>
+<li><a href="https://github.com/svenholcombe/matlab-lsdyna"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">matlab-lsdyna</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 来自有限元求解器 LS-DYNA 的 ascii 结果文件的读取器，以及从 MATLAB 以编程方式运行 LS-DYNA 模拟的包装器。</font></font></li>
+<li><a href="https://github.com/Solid-Mechanics/postPro4Abq"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">postPro4Abq</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于读取和处理 odb 文件的 Python 脚本。</font></font></li>
+<li><a href="https://github.com/Kitware/ParaView"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ParaView</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ParaView 是一个基于可视化工具包（VTK）的开源、多平台数据分析和可视化应用程序。</font></font></li>
+<li><a href="https://github.com/quisten/abaqusPython"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abaqusPython</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 常用的 abaqus 脚本和其他有用的宝石的集合！</font></font></li>
+<li><a href="https://github.com/Solid-Mechanics/matplotlib-4-abaqus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">matplotlib-4-abaqus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 允许 abaqus(v6.14-1) 在其内置 python 脚本环境中使用 matplotlib。</font></font></li>
+<li><a href="https://github.com/Solid-Mechanics/colorbrewer-colormaps-4-abaqus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">colorbrewer-colormaps-4-abaqus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Abaqus 中漂亮的配色方案来绘制轮廓的简单方法.</font></font></li>
+<li><a href="https://github.com/JorgeDeLosSantos/pyqus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyQus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于 Abaqus ODB 文件后处理的 Python 代码。</font></font></li>
+<li><a href="https://github.com/mkazhdan/IsoSurfaceExtraction"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IsoSurfaceExtraction</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 从规则体素网格中提取等值面</font></font></li>
+<li><a href="https://github.com/glue-viz/glue"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">glue</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Glue 是一个 Python 项目，用于链接多个文件中科学数据集的可视化。</font></font></li>
+<li><a href="https://www.simright.com/apps/simright-viewer" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Simright Viewer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Simright Viewer 是基于 Web 的 CAD/CAE 模型查看器。它还可用于创建 3D 快照 URL 以供共享。</font></font></li>
+<li><a href="https://github.com/PucklaJ/dynareadout"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dynareadout</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于读取二进制 LS-DYNA 结果文件（binout、d3plot）的 AC/C++/Python 库，重点关注性能和内存使用情况。</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优化</font></font></h1><a id="user-content-optimization" class="anchor" aria-label="永久链接：优化" href="#optimization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于进行优化的工具。</font></font></em></p>
+<ul dir="auto">
+<li><a href="https://github.com/mengomarlene/opti4Abq"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">opti4Abq</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - python2 和 ABAQUS 的优化方法。</font></font></li>
+<li><a href="https://github.com/OpenMDAO/OpenMDAO-Framework"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenMDAO</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - OpenMDAO 是一个开源高性能计算平台，用于系统分析和多学科优化，用 Python 编写。</font></font></li>
+<li><a href="https://github.com/ldslpm/ToOptiX"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ToOptiX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -ToOptix 用于多物理拓扑优化。</font></font></li>
+<li><a href="https://github.com/ldslpm/casadi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CasADi</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -CasADi 是一个用于数值优化的符号框架，可在稀疏矩阵值计算图上实现前向和反向模式的自动微分.</font></font></li>
+<li><a href="https://github.com/yalmip/YALMIP"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YALMIP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于优化建模的 MATLAB 工具箱</font></font></li>
+<li><a href="https://www.simright.com/apps/simright-toptimizer" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Simright Toptimizer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Simright Toptimizer 是一款基于 Web 的拓扑优化软件。</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具</font></font></h1><a id="user-content-tools" class="anchor" aria-label="永久链接：工具" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/setvisible/nastran-find"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nastran-find</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -Nastranfind 是浏览 Nastran 输入面板的解决方案</font></font></li>
+<li><a href="https://github.com/victorsndvg/FEconv"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEconv</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 程序 feconv 在多种格式之间转换有限元 (FE) 网格文件</font></font></li>
+<li><a href="https://github.com/Liujie-SYSU/odb2vtk"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">odb2vtk</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Python 脚本将 Abaqus ODB 文件转换为 VTK 格式以进行 Paraview 可视化。</font></font></li>
+<li><a href="https://github.com/setvisible/nastran-find"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nastran-find</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -Nastranfind 是浏览 Windows、Mac OS X 和 Unix 的 Nastran 输入面板文件的解决方案.</font></font></li>
+<li><a href="https://www.simright.com/apps/simright-converter" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Simright Converter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Simright Converter 是一个基于 Web 的工具，用于在不同格式之间转换 CAE 模型。</font></font></li>
+<li><a href="https://github.com/rodrigo1392"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abaqus_scripts</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Python 脚本，用于自动化 Simulia Abaqus 日常使用中的无聊工作，从打开 GUI 到控制参数分析。</font></font></li>
+<li><a href="https://github.com/haiiliin/abqpy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abqpy</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Abaqus/Python 脚本的类型提示。</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑</font></font></h1><a id="user-content-editors" class="anchor" aria-label="永久链接：编辑" href="#editors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里您可以找到编辑器或编辑器插件。</font></font></em></p>
+<ul dir="auto">
+<li><a href="https://github.com/gradzikb/vim-lsdyna"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vim-lsdyna</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - LS-DYNA 输入文件的 vim 插件.</font></font></li>
+<li><a href="https://github.com/tbhartman/vim-lexer-lsdyna"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vim-lexer-lsdyna</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -vim 的 LS-DYNA 关键字输入文件词法分析器.</font></font></li>
+<li><a href="https://github.com/gradzikb/vim-abaqus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vim-abaqus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于 ABAQUS 输入文件的 vim 插件.</font></font></li>
+<li><a href="https://github.com/gradzikb/vim-radioss"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vim-radioss</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - RADIOSS 输入文件的 vim 插件.</font></font></li>
+<li><a href="https://atom.io/packages/language-abaqus" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATOM language-abaqus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在编辑器 ATOM 中突出显示 ABAQUS 语言.</font></font></li>
+<li><a href="https://atom.io/packages/language-nastran" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATOM language-nastran</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在 Atom 中向 NASTRAN 文件添加语法突出显示.</font></font></li>
+<li><a href="https://github.com/drwillharrison/language-abaqus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATOM language-abaqus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Atom 中 Abaqus 输入文件的基本语法突出显示.</font></font></li>
+<li><a href="https://atom.io/packages/language-ansys" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATOM language-ansys</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - ATOM 的 ANSYS apdl 语言支持.</font></font></li>
+</ul>
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h1><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与文档相关的项目</font></font></em></p>
+<ul dir="auto">
+<li><a href="https://github.com/bendeaton/LS-DYNA-Sublime"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LS-DYNA-Sublime</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - LS-DYNA 有限元软件的 Sublime Text 语法突出显示.</font></font></li>
+<li><a href="https://github.com/bendeaton/Abaqus-Sublime"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Abaqus-Sublime</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -Abaqus 有限元软件的 Sublime Text 语法突出显示.</font></font></li>
+<li><a href="https://github.com/bendeaton/Abaqus-Documentation-Scraper"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Abaqus-Documentation-Scraper</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 用于从 Abaqus HTML 文档中提取关键字、参数和参数值的 Python 脚本。</font></font></li>
+</ul>
+</article></div>
